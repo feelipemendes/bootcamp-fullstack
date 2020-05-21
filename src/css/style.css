@@ -1,0 +1,39 @@
+body {
+  line-height: 1;
+}
+#main {
+  content: '';
+  display: table;
+  clear: both;
+  padding: 25px;
+}
+div {
+  float: left;
+  height: 100px;
+  width: 26%;
+  padding: 0 10px;
+}
+.text {
+  padding: 3px;
+  margin: 5px;
+  font-style: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+#column1 {
+  width: 10rem;
+}
+#column2 {
+  width: 12rem;
+}
+#column3 {
+  width: 7rem;
+}
+.input-text {
+  margin: 2px;
+}
+#boxRgb {
+  height: 6rem;
+  width: 6rem;
+  margin: auto;
+  border: groove;
+}

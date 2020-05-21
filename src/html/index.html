@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+
+    <title>Desafio 01</title>
+  </head>
+  <body>
+    <div id="main">
+      <h1>Desafio 01</h1>
+      <div id="column1">
+        <p class="text">(R) VERMELHO:</p>
+        <p class="text">(G) VERDE:</p>
+        <p class="text">(B) AZUL:</p>
+      </div>
+      <div id="column2">
+        <input
+          id="range-red"
+          class="range"
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          step="1"
+        />
+        <input
+          id="range-green"
+          class="range"
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          step="1"
+        />
+        <input
+          id="range-blue"
+          class="range"
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          step="1"
+        />
+      </div>
+      <div id="column3">
+        <input
+          id="text-red"
+          class="input-text"
+          type="text"
+          disabled
+          size="5"
+          value=""
+        />
+        <input
+          id="text-green"
+          class="input-text"
+          type="text"
+          disabled
+          size="5"
+          value=""
+        />
+        <input
+          id="text-blue"
+          class="input-text"
+          type="text"
+          disabled
+          size="5"
+          value=""
+        />
+      </div>
+      <div id="boxRgb"></div>
+    </div>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
